@@ -1,0 +1,54 @@
+.title {
+    text-align: center;
+    margin-block: 15px;
+}
+
+.stores {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.store-card {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 5px;
+    border-radius: 3px;
+    padding: 10px;
+    color: black;
+}
+
+.prices{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.item-card{
+    border: 1px solid black;
+    width: 90%;
+    margin: auto;
+    margin: 5px;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.items{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.item-price{
+    color: red;
+    text-decoration: line-through;
+}
+
+.item-disprice{
+    color: green;
+}
+
+.item-name{
+    text-align: center;
+    margin-block: 10px;
+}

@@ -1,6 +1,6 @@
 [
     {
-        "id" : 1111,
+        "storeId" : 1111,
         "storeName" : "Best Store",
         "city" : "Ramat Gan",
         "items" : [
@@ -28,7 +28,7 @@
             }
         ]
     },{
-        "id" : 2222,
+        "storeId" : 2222,
         "storeName" : "Zol For U",
         "city" : "Tel Aviv",
         "items" : [
@@ -56,7 +56,7 @@
             }
         ]
     },{
-        "id" : 3333,
+        "storeId" : 3333,
         "storeName" : "MishMash",
         "city" : "Haifa",
         "items" : [
@@ -84,7 +84,7 @@
             }
         ]
     },{
-        "id" : 4444,
+        "storeId" : 4444,
         "storeName" : "Tech Store",
         "city" : "Eilat",
         "items" : [
@@ -112,7 +112,7 @@
             }
         ]
     },{
-        "id" : 5555,
+        "storeId" : 5555,
         "storeName" : "Just Buy",
         "city" : "Bat Yam",
         "items" : [
@@ -140,7 +140,7 @@
             }
         ]
     },{
-        "id" : 6666,
+        "storeId" : 6666,
         "storeName" : "Chip Shop",
         "city" : "Acre",
         "items" : [
