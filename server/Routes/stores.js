@@ -87,15 +87,15 @@ StoresRouter.post(`/add`, async (req, res) => {
 // add specific item to store
 StoresRouter.post('/:storeId/items/add', async (req, res) => {
     let {
-        store
+        storeId
     } = req.params;
     let {
-        storeId,
+        id,
         itemName,
         price,
         disPrice
     } = req.body;
-    let storeObj = stores.find((s) => s.storeId == store);
+    let storeObj = stores.find((s) => s.storeId == storeId);
 
     if (storeObj) {
         let item = storeObj.items.find((i) => i.id == id);
@@ -106,7 +106,7 @@ StoresRouter.post('/:storeId/items/add', async (req, res) => {
             });
         } else {
             let newItem = {
-                storeId,
+                id,
                 itemName,
                 price,
                 disPrice

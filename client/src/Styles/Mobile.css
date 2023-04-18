@@ -20,12 +20,12 @@
     color: black;
 }
 
-.prices{
+.prices {
     display: flex;
     justify-content: space-evenly;
 }
 
-.item-card{
+.item-card {
     border: 1px solid black;
     width: 90%;
     margin: auto;
@@ -34,21 +34,56 @@
     padding: 10px;
 }
 
-.items{
+.items {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
-.item-price{
+.item-price {
     color: red;
     text-decoration: line-through;
 }
 
-.item-disprice{
+.item-disprice {
     color: green;
 }
 
-.item-name{
+.item-name {
     text-align: center;
     margin-block: 10px;
+}
+
+.store-inputs-field {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.store-inputs-field input {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+.button-style {
+    display: flex;
+    justify-content: center;
+}
+
+.add-new-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.add-new-item input {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+.add-new-item button {
+    width: 30%;
+    margin: auto;
 }
